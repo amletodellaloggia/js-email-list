@@ -1,6 +1,35 @@
 /* CSS RESET */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border: none;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.list-group-item {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+button.btn {
+  font-weight: 500;
+  padding: 0.6rem 1.8rem;
+  border-radius: 0.5rem;
 }
